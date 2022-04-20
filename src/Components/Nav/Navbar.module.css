@@ -1,0 +1,23 @@
+.mainNav {
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 102;
+    background: rgb(21, 1, 224);
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+}
+
+.heading {
+    padding: 0 15px;
+    text-transform: capitalize;
+}
