@@ -12,8 +12,9 @@ const Modal = ({
   currentIndex,
   data,
 }) => {
-  console.log(clickedImage, clickedImage.name);
-  const handleClick = (e) => {
+  // console.log(clickedImage, clickedImage.name);
+  // to hide the modal
+  const handleClick = () => {
     setShowModal(false);
   };
   return (
@@ -43,7 +44,7 @@ const Modal = ({
               </span>
             </div>
             <span className={styles.modal__text}>
-              {clickedImage.target.getAttribute("alt")}
+              {clickedImage.name}
               <br />
               <span>
                 {(currentIndex += 1)} / {data.length}

@@ -14,6 +14,7 @@ const Gallery = ({ data }) => {
     setClickedImage(item);
     setShowModal(true);
   };
+  // handling the next picture in the array
   const handleRotationRight = () => {
     const totalLength = data.length;
     // we want to check if the clicked item is the first element
@@ -31,7 +32,7 @@ const Gallery = ({ data }) => {
     setClickedImage(newItem);
     setCurrentIndex(newIndex);
   };
-
+  // handling the prev picture in the array
   const handleRotationLeft = () => {
     const totalLength = data.length;
     if (currentIndex === 0) {
