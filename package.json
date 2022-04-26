@@ -2,6 +2,7 @@
   "name": "carousel-scaleflex",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://islam23.github.io/scaleflex-carousel",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
